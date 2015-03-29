@@ -22,5 +22,6 @@ Check following URLs (running this example on your localhost):
 2. [Swagger API documentation](http://localhost:8080/libre-question/rest/api-docs/products)
 3. [Swagger UI](http://localhost:8080/libre-question/apidocs/)
 
+Demo url: 
 http://jbossews-librequestion.rhcloud.com/libre-question-web/apidocs/
 
