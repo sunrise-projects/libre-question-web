@@ -1,4 +1,6 @@
-<web-app id="libre-question-web" version="3.0" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+<web-app id="libre-question-web" version="3.0"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 	<display-name>Libre Question</display-name>
 
@@ -8,12 +10,14 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 	</context-param>
 
 	<listener>
-		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+		<listener-class>org.springframework.web.context.ContextLoaderListener
+		</listener-class>
 	</listener>
 
 	<servlet>
 		<servlet-name>jersey-serlvet</servlet-name>
-		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+		<servlet-class>org.glassfish.jersey.servlet.ServletContainer
+		</servlet-class>
 		<init-param>
 			<param-name>javax.ws.rs.Application</param-name>
 			<param-value>com.librequestion.web.ApplicationConfig</param-value>

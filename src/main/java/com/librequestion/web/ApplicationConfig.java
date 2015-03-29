@@ -9,7 +9,7 @@ import org.glassfish.jersey.server.ResourceConfig;
 public class ApplicationConfig extends ResourceConfig {
 
     public ApplicationConfig() {
-        final String myRestPackage = "com.jakubstas.swagger.rest";
+        final String myRestPackage = "com.librequestion.web.rest";
         final String jacksonPackage = "org.codehaus.jackson.jaxrs";
 
         final String swaggerJaxrsJsonPackage = "com.wordnik.swagger.jaxrs.json";
